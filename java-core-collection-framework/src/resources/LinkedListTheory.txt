@@ -1,0 +1,14 @@
+In array in case of deletion or insertion at arbritary index the shifting issue arises-- O(N) -- issue of holes after removal
+To deal with this linked list comes to the rescue
+We have access to the first node-head node
+Head node --> references --> null
+No holes
+Node = data + reference
+No Random Indexing : disadvantage compared to array
+O(N) finding arbritrary items
+O(1) insert item at first node  : adv compared to array
+O(1) remove item at first node  : adv compared to array
+O(N) insert node at last or in b/w - we have to start with
+the first node and going to the next node until we find the node we are looking for
+
+
